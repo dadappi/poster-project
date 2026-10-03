@@ -1,0 +1,30 @@
+{
+  "duration": 35,
+  "fps": 30,
+  "cues": [
+    {
+      "type": "success",
+      "t": 11.167,
+      "snap": false,
+      "scene": "3",
+      "kind": "success",
+      "source": "manual"
+    },
+    {
+      "type": "success",
+      "t": 21.967,
+      "snap": false,
+      "scene": "4",
+      "kind": "success",
+      "source": "manual"
+    },
+    {
+      "type": "success",
+      "t": 28.967,
+      "snap": false,
+      "scene": "5",
+      "kind": "success",
+      "source": "manual"
+    }
+  ]
+}

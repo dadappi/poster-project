@@ -1,0 +1,60 @@
+{
+  "scenes": [
+    { 
+      "start": 0, 
+      "end": 4, 
+      "visual": "City skyline at night, lights flickering on",
+      "events": [
+        { "t": 0.5, "type": "ambience", "label": "city_night_hum" },
+        { "t": 1.2, "type": "ui", "label": "light_flicker_on" }
+      ]
+    },
+    { 
+      "start": 4, 
+      "end": 10, 
+      "visual": "House with wasteful lights, energy meter rising",
+      "events": [
+        { "t": 4.5, "type": "alert", "label": "energy_warning_beep" }
+      ]
+    },
+    { 
+      "start": 10, 
+      "end": 18, 
+      "visual": "Player toggles light switch, meter drops, green checkmark",
+      "events": [
+        { "t": 10.8, "type": "ui", "label": "switch_click" },
+        { "t": 11.2, "type": "success", "label": "energy_drop_chime" },
+        { "t": 12.0, "type": "ui", "label": "green_check_pop" }
+      ]
+    },
+    { 
+      "start": 18, 
+      "end": 28, 
+      "visual": "Dashboard shows real-time energy, player optimizes",
+      "events": [
+        { "t": 18.5, "type": "ui", "label": "dashboard_tick" },
+        { "t": 22.0, "type": "success", "label": "milestone_achieved" }
+      ]
+    },
+    { 
+      "start": 28, 
+      "end": 32, 
+      "visual": "City goes green, confetti, 'Energy Saved!' banner",
+      "events": [
+        { "t": 28.5, "type": "celebration", "label": "confetti_burst" },
+        { "t": 29.0, "type": "success", "label": "victory_fanfare_short" }
+      ]
+    },
+    { 
+      "start": 32, 
+      "end": 35, 
+      "visual": "Roblox logo, 'Play Now', handle",
+      "events": [
+        { "t": 32.0, "type": "ui", "label": "button_hover" },
+        { "t": 32.5, "type": "ui", "label": "button_click" }
+      ]
+    }
+  ],
+  "bpm": 100,
+  "duration": 35
+}
