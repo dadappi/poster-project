@@ -1,0 +1,6 @@
+# Roblox Map Assets Structure
+# 2D assets (UI, decals, textures) -> assets/2d/
+# 3D assets (models, props) -> assets/3d/
+# Audio (SFX, music) -> assets/audio/
+# Lua scripts -> scripts/
+# Main place file -> place.rbxl
